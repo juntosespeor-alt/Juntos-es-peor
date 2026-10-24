@@ -1,0 +1,11 @@
+# Sitio estático: no hay build, se publica la raíz tal cual.
+[build]
+  publish = "."
+  command = ""
+
+# Que el navegador siempre consulte la versión más nueva de la fecha.
+[[headers]]
+  for = "/proxima-fecha.md"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+    Content-Type = "text/markdown; charset=utf-8"
