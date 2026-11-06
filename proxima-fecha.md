@@ -1,5 +1,5 @@
 ---
-fecha: 2026-10-29
+fecha: 2026-11-14
 hora: "20:00"
 lugar: Ícaro Bar
 direccion: Jorge Newbery 3549, Chacarita
