@@ -432,7 +432,7 @@
     if (d.reserva) html += '<p class="note">' + esc(d.reserva) + "</p>";
     if (d._texto) html += '<p class="extra">' + esc(d._texto) + "</p>";
     if (linkValido(d.link_reserva)) {
-      html += '<a class="btn" href="' + esc(d.link_reserva) + '" target="_blank" rel="noopener">Reservar</a>';
+      html += '<a class="btn" href="' + esc(d.link_reserva) + '" target="_blank" rel="noopener">Pedinos tu entrada</a>';
     }
     html += "</div>";
     var serial = "N° " + d.fecha.slice(8, 10) + d.fecha.slice(5, 7) + " · " + (d.hora || "").replace(":", "");
